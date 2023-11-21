@@ -33,7 +33,7 @@ const Products = () => {
               alt={product.name}
               className="w-[50px] h-[50px]"
             ></img>
-            <p>→ {product.name}</p>
+            <p className="text-[#ff697d]">→ {product.name}</p>
             <p>→ Rs {product.price}</p>
             <p>→ {product.quantity} units</p>
             <p>→ {product.category}</p>

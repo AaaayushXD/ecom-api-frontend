@@ -31,7 +31,7 @@ const Products = () => {
             <img
               src={product.picture}
               alt={product.name}
-              className="w-[50px] h-[50px]"
+              className="w-[60px] h-[60px]"
             ></img>
             <p className="text-[#ff697d]">→ {product.name}</p>
             <p>→ Rs {product.price}</p>
